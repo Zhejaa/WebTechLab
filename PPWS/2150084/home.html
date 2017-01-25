@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> My Portfolio  </title>
+<meta name="author" content= "Mary Jane (WenYa) Q. Zheng" />
+<meta name="description" content= "Personal Portfolio" />
+<meta name="keywords" content= "Personal Portfolio, Portfolio" />
+</head>
+
+<body>
+
+<div id="page">
+<div id="logo">
+<h1><a href="index.html" id="logoLink"> <img src="Logo2rev.png" alt="Logo" style="width:150%;height:150%;"> </a></h1>
+</div>
+
+<div id="quote">
+<img src="Quote2.png" alt="Quote" style="width:50%;height:50%;">	
+</div>
+
+<div id="nav">
+<ul>
+	<li><a href="home.html">Home</a></li>
+	<li><a href="about.html">About</a></li>
+	<li><a href="contact.html">Contact</a></li>
+</ul>	
+</div>
+
+<div id="content">
+	<h2>Hello Everyone!</h2>
+	<p>Self introduction</p>
+	<p>Self introduction continued</p>
+</div>
+
+<div id="footer">
+	<p> Webpage made by <a href="home.html" target="_blank">Mary Jane Zheng</a></p>
+</div>
+</div>
+
+</body>
+</html>
+
+<style>
+p{ line-height: 1em; }
+h1, h2, h3, h4{
+    color: gray;
+	font-weight: normal;
+	line-height: 1.1em;
+	margin: 0 0 .5em 0;
+}
+h1{ font-size: 1.7em; }
+h2{ font-size: 1.5em; }
+a{
+	color: black;
+	text-decoration: none;
+}
+	a:hover,
+	a:active{ text-decoration: underline; }
+
+body{
+    font-family: arial; font-size: 80%; line-height: 1.2em; width: 100%; margin: 0; background: white;
+}
+
+
+#page{ margin: 20px; }
+
+#logo{
+	width: 10%;
+	margin-top: 5px;
+	display: inline-block;
+}
+
+#quote{
+	width: 30%;
+	display: inline-block;
+	text-align: right;
+	float: right;
+}
+
+#nav{
+	margin-top: 0.1;
+	width: 100%;
+	height:10%
+	display: inline-block;
+	text-align: center;
+	float: right;
+}
+
+	#nav ul{}
+		#nav ul li{
+			display: inline-block;
+			height: 100px;
+			width: 200px;
+		}
+			#nav ul li a{
+				padding: 10px;
+				width:100px;
+				background: gray;
+				color: white;
+			}
+			#nav ul li a:hover{
+				background-color: #404040;
+				box-shadow: 0px 1px 1px #666;
+			}
+			#nav ul li a:active{ background-color: #1a1a1a; }
+
+#content{
+	margin: 30px 0;
+	background: white;
+	padding: 20px;
+	clear: both;
+}
+
+#footer{
+	border-bottom: 1px #ccc solid;
+	margin-bottom: 10px;
+}
+	#footer p{
+		text-align: right;
+		text-transform: uppercase;
+		font-size: 80%;
+		color: gray;
+	}
+
+#content,
+ul li a{ box-shadow: 0px 1px 1px #999; }
+</style>
