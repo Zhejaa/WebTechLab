@@ -1,37 +1,53 @@
 <!DOCTYPE html>
 <html>
 
+<link rel="stylesheet" type="text/css" href="style.css">
+
 <head>
-	<title> My Portfolio </title>
+  <title> My Portfolio </title>
 </head>
-<body background="bg.jpg">
+<body>
 
-<div class="container">
+<div id="header">
+  <div id="nav">
+    <div class="navi">
+        <img src="death-star-icon.png" alt="icon" style="width:48px;height:48px;">
+        <a href="#home"><span>Home</span></a>
+    </div>
+    <div class="navi">
+      <img src="darth-vader-icon.png" alt="icon" style="width:48px;height:48px;">
+      <a href="#about"><span>About</span></a>
+    </div>
+    <div class="navi">
+        <img src="R2D2-icon.png" alt="icon" style="width:48px;height:48px;">
+        <a href="#contact"><span>Contact</span></a>
+    </div>
+  </div>  
+</div>  
 
-  <div class="header">
-    <h1> Jenmar </h1>
-    <h1> Gagelonia </h1>
-  </div>
-
-    <div class="body_con">
-      <ul id="nav">
-      <li> <a href="index.html"> Home </a> </li> 
-      <li> <a href="contact.html"> Contact </a> </li>
-      <li> <a href="about.html"> About </a> </li>
-      </ul>
-
-      <div class="main">
-        <h1> Home </h1>
-          
-      </div>
-
-        <div id="footer" style="background-color:black;clear:both;text-align:center;color:white;">
-          footer
-        </div >
-
+<div id="home" class="page">
+    <div class="starwars-demo">
+      <h1 alt="Star" class="jen"> <img src="jen.png" alt="icon" > </h1>
+      <h1 alt="Wars" class="mar"> <img src="mar.png" alt="icon" > </h1>
+      <h2 class="byline" id="byline"> GAGELONIA </h2>
     </div>
 </div>
 
+<div id="about" class="page">
+    <h1> About </h1>
+      <p> 
+      </p>
+</div>
+
+<div id="contact" class="page">
+    <h1> Contact </h1>
+      <ul>
+        <li> Number: 09278746586 </li>
+        <li> E-mail: jenmargagelonia@gmail.com </li>
+        <li> Home Address: Munoz, Nueva Ecija </li>
+        <li> Baguio Address: Trancoville, Baguio City </li>
+      </ul>
+</div>
 
 </body>
 </html>
